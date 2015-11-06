@@ -1,0 +1,39 @@
+@import url(//fonts.googleapis.com/css?family=Alex+Brush);
+body {
+    margin: 20px;
+    font-family: 'Open Sans', sans-serif;
+    background: cornflowerblue;
+}
+.form-row {
+    margin: 200px 0;
+    color: red;
+}
+.form-row label {
+    display:block;
+    margin-bottom: 20px;
+}
+.form-row input {
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+}
+h1 {
+    font-family: 'Alex Brush', cursive;
+}
+h2 {
+    font-family: 'Alex Brush', cursive;
+
+}
+h1, h2 {
+    font-family: 'Alex Brush', cursive;
+}
+.form-row input [type=radio],
+.form-row input [type=checkbox]
+ .buttons-panel input
+{
+    width: auto;
+}
+ul {
+    list-style: ;
+}

@@ -1,3 +1,121 @@
-<html>
-<head></head>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+<title>Для заказчика. Бриф по созданию landing page</title>
+    <meta charset="utf-8">
+</head>
+<body>
+<h1>Страница заказчика.
+    Бриф по созданию landing page
+</h1>
+<h2>Почтовая рассылка</h2>
+<img src="img/2_2.jpg" height="300">
+<form action="brief.html" method="post">
+    <ol class="form-row">Контактная информация.
+        <li><label for="organisation">Название организации</label>
+            <input id="organisation" type="text" placeholder="Ivan corp.">
+        </li>
+        <li><label for="fio">ФИО</label>
+            <input id="fio" type="text" placeholder="Иванов Иван Иванович">
+        </li>
+        <li><label for="job">Занимаемая должность</label>
+            <input id="job" type="text" placeholder="Директор"></li>
+        <li><label for="phone">Телефон</label>
+            <input id="phone" type="text" placeholder="+7 (111) 111 11 11">
+        </li>
+        <li><label for="cite">Текущий сайт(если есть)</label>
+            <input id="cite" type="text" placeholder="www.example.ru">
+        </li>
+        <li><label for="e-mail">E-mail</label>
+            <input id="e-mail" type="email" placeholder="ivanov@example.ru">
+        </li>
+    </ol>
+    <ol>Об организации.
+        <li>
+            <label>
+                Сфера деятельности<input type="text" placeholder="туризм, торговля и т.д.">
+            </label>
+        </li>
+        <li>
+            <label>
+                Товары и услуги<input type="text" placeholder="канцтовары, массаж и т.д.">
+            </label>
+        </li>
+        <li>
+            <label>
+                Целевая аудитория<input type="text" size="60" placeholder="мужчины, 30-40 лет, холостые и т.д.">
+            </label>
+        </li>
+        <li>Что для вас наиболее важно в сайте?
+            <ul>
+                <li>
+                    <label>
+                        Внешний вид и большое количество сложных элементов<input type="radio" name="city" value="0">
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        Скорость загрузки страниц, быстродействие<input type="radio" name="city" value="1">
+                    </label>
+                </li>
+            </ul>
+        </li>
+        <li>Из какого вы города?
+            <label for="city">Выберите город</label>
+            <select name="city" id="city">
+                <option value="3">Архангельск</option>
+                <option value="4">Барнаул</option>
+                <option value="5">Вологда</option>
+                <option value="6">Георгиевск</option>
+                <option value="7">Днепропетровск</option>
+                <option value="9">Ейск</option>
+                <option value="10">Жуковский</option>
+                <option value="11">Зеленогорск</option>
+                <option value="12">Ивангород</option>
+                <option value="13>Йорк</option>
+                                <option value=14"> Коломна</option>
+                <option value="15">Липецк</option>
+                <option value="16">Москва</option>
+                <option value="17">Нижний Новогород</option>
+                <option value="18">Орел</option>
+                <option value="19">Павловск</option>
+                <option value="20">Ростов-На-Дону</option>
+                <option value="21" selected>Санкт-Петербург</option>
+                <option value="22">Тюмень</option>
+            </select>
+        </li>
+    </ol>
+    <ol>Информация о сайте
+        <li>Есть ли фирменный стиль? Если есть, опишите его или укажите ссылку на имеющийся сайт
+            <label>
+                <input type="text" size="60">
+            </label>
+        </li>
+        <li>Имеется ли у вас логотип? Если есть, прикрепите фото <input type="file" multiple="multiple">
+        </li>
+        <li>Какие графические материалы вы можете предоставить для использования на сайте?(ссылка или файл)
+            
+            <label>
+                <input type="text"> <input type="file" multiple="multiple">
+            </label>
+        </li>
+    </ol>
+    <p>
+        Что обязательно должно присутствовать на сайте?
+        <input id="content0" type="checkbox" name="select[]" value="0" checked><label for="content0">Видео</label>
+        <input id="content1" type="checkbox" name="select[]" value="1" checked><label for="content1">Текст</label>
+        <input id="content2" type="checkbox" name="select[]" value="2"><label for="content2">Всплывающие окна</label>
+        <input id="content3" type="checkbox" name="select[]" value="3" checked><label for="content3">Изображения</label>
+    </p>
+
+    <p>
+        <label>
+            <input type="submit" value="Подтвердить информацию">
+        </label>
+    </p>
+</form>
+</body>
 </html>
+
